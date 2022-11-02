@@ -18,7 +18,7 @@ public class StringLoops
     {
         int count = 0;
         for (int i = 0; i < searchString.length(); i++) {
-            if ("" + i == searchString.substring(i,i + 1)) {
+            if (character == searchString.substring(i,i + 1)) {
                 count++;
             }
         }
